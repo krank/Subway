@@ -1,0 +1,27 @@
+body {
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    grid-template-areas: "menu" "content";
+}
+
+ul.nodeList li {
+    font-size: 2em;
+}
+
+ul.nodeList li span {
+    font-size: 1em;
+}
+
+a.submit {
+    font-size: 2em;
+}
+
+main {
+    overflow: visible;
+    min-height: 30em;
+}
+
+section.menu {
+    overflow: visible;
+    width:auto;
+}
