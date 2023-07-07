@@ -1,0 +1,13 @@
+body {
+  display: grid;
+  grid-template-columns: 15em 1fr;
+  grid-template-areas: "sidebar main";
+}
+
+section.menu {
+  grid-area: sidebar;
+}
+
+section.main {
+  grid-area: main;
+}

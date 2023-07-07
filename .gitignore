@@ -1,2 +1,2 @@
-js/jquery*
-js/viz*
+node_modules
+dist
